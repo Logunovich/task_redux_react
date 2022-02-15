@@ -1,0 +1,19 @@
+.form_control {
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.btn-cancel{
+    border: 1px solid rgb(122, 122, 122);
+    margin: 0 0 0 5px;
+    padding: 0 20px 0 25px;
+    color: rgb(145, 103, 26);
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 -10px 0;
+    color: rgb(180, 180, 180);
+}
