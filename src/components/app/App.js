@@ -8,7 +8,9 @@ import './app.css';
 const App = () => {
 
     const { curEditUserId, userCreate } = useSelector(state => state);
+
     let contentWindow = <UserList/>; 
+    
     if (userCreate) {
         contentWindow = <UserAddForm/>
     } else if (curEditUserId) {
